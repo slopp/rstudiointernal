@@ -1,0 +1,29 @@
+---
+title: "RStudio Template"
+output: rstudiointernal::rstudio_doc
+---
+
+<div style="height:50px; width:100px;">
+  ![](`r rstudiointernal::get_logo_url()`)
+</div>
+
+## This RMD uses our standard RStudio template!
+
+ed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eosum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+
+We can also use the RStudio theme for graphics.
+
+```{r plot}
+library(ggplot2)
+library(rstudiointernal)
+ggplot(mtcars) +
+  geom_point(aes(mpg, hp, color = as.factor(cyl))) +
+  labs(
+    title = 'MPG vs HP',
+    color = "Cylinders",
+    x = NULL,
+    y = NULL
+  ) +
+  theme_rstudio() +
+  scale_color_rstudio()
+```

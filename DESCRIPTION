@@ -1,0 +1,21 @@
+Package: rstudiointernal
+Type: Package
+Title: Demo Internal Package for RStudio
+Version: 0.1.0
+Author: Sean Lopp
+Maintainer: Sean Lopp <sean@rstudio.com>
+Description: This package contains functions for
+    connecting to RStudio data, RStudio color themes,
+    and RStudio report templates.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dbplyr,
+    ggplot2,
+    grDevices,
+    rmarkdown,
+    rstudioapi,
+    DBI,
+    odbc
+RoxygenNote: 6.0.1

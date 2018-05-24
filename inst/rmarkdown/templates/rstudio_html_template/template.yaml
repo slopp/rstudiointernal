@@ -1,0 +1,3 @@
+name: RStudio HTML Doc
+description: Template and CSS styles for default HTML RMD
+create_dir: true
