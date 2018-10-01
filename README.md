@@ -1,6 +1,6 @@
 # rstudiointernal
 
-This package is a demo showing how you might create an internal package for your organization.
+This package is a demo showing how you might create an internal package for your organization. Our demo is for RSPM!
 
 Internal packages can provide data science teams with:
 
