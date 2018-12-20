@@ -1,7 +1,7 @@
 Package: rstudiointernal
 Type: Package
 Title: Demo Internal Package for RStudio
-Version: 0.1.0
+Version: 0.2.0
 Author: Sean Lopp
 Maintainer: Sean Lopp <sean@rstudio.com>
 Description: This package contains functions for
